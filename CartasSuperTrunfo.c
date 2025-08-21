@@ -25,9 +25,9 @@ int main() {
     scanf(" %c", &estado1); // espaço antes de %c para consumir '\n'
 
     printf("Informe o Código da Carta (ex: A01): \n");
-    scanf(" %s", &codigo1);
+    scanf("%s", &codigo1);
 
-    printf("Informe o Nome da Cidade: ");A
+    printf("Informe o Nome da Cidade: ");
     scanf(" %[^\n]", nome_cidade1); // lê até o Enter, inclusive espaços
 
     printf("Informe a População: ");
