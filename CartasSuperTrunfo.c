@@ -28,7 +28,7 @@ int main() {
     scanf("%s", &codigo1);
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nome_cidade1); // lê até o Enter, inclusive espaços
+    scanf(" %[^\n]", &nome_cidade1); // lê até o Enter, inclusive espaços
 
     printf("Informe a População: ");
     scanf("%d", &populacao1);
@@ -51,7 +51,7 @@ int main() {
     scanf("%s", codigo2);
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nome_cidade2);
+    scanf(" %[^\n]", &nome_cidade2);
 
     printf("Informe a População: ");
     scanf("%d", &populacao2);
